@@ -1,0 +1,45 @@
+name: Update Live Status
+
+on:
+
+  workflow_dispatch:
+
+  schedule:
+    - cron: "*/5 * * * *"
+
+permissions:
+  contents: write
+
+jobs:
+
+  update-status:
+
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: |
+          pip install requests
+
+      - run: |
+          python scripts/update_live_status.py
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+          YOUTUBE_CHANNEL_ID: ${{ secrets.YOUTUBE_CHANNEL_ID }}
+
+      - run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+
+          git add live.json
+
+          git diff --cached --quiet || \
+          git commit -m "Update live status"
+
+          git push
