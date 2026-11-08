@@ -1,4 +1,36 @@
 {
   "networkName": "The Convergence Network",
-  "isLive": false
+  "ministryName": "Christ the King Redemptive Ministries",
+  "networkDescription": "A ministry broadcasting worship, biblical teaching, leadership development, and prophetic ministry programming.",
+  "website": "https://live.ctkrm.org",
+  "ministryWebsite": "https://ctkrm.org",
+  "supportWebsite": "https://ctkrm.org",
+  "isLive": false,
+  "schedule": [
+    {
+      "title": "Live Worship",
+      "time": "Sundays at 9:00 AM Eastern"
+    },
+    {
+      "title": "Convergence Bible Institute",
+      "time": "Tuesdays at 7:00 PM Eastern"
+    },
+    {
+      "title": "The J.A.M.M. (Jesus and Me Ministry)",
+      "time": "Fridays at 7:00 PM Eastern"
+    },
+    {
+      "title": "Women of Prophetic Destiny Fellowship",
+      "time": "Every 2nd Friday at 7:00 PM Eastern"
+    },
+    {
+      "title": "Women of Prophetic Destiny Fellowship",
+      "time": "Every 2nd Saturday at 7:00 PM Eastern"
+    },
+    {
+      "title": "Women of Prophetic Destiny Fellowship",
+      "time": "Every 2nd Sunday at 4:00 PM Eastern"
+    }
+  ],
+  "lastUpdated": "2026-11-08T22:51:21.339846+00:00"
 }
