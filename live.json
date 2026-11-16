@@ -5,9 +5,32 @@
   "website": "https://live.ctkrm.org",
   "ministryWebsite": "https://ctkrm.org",
   "supportWebsite": "https://ctkrm.org",
-  "isLive": true,
-  "title": "Women of Prophetic Destiny Fellowship",
-  "videoId": "8whz94gduJ8",
-  "youtubeWatchUrl": "https://www.youtube.com/watch?v=8whz94gduJ8",
-  "lastUpdated": "2026-11-15T21:14:37.033692+00:00"
+  "isLive": false,
+  "schedule": [
+    {
+      "title": "Live Worship",
+      "time": "Sundays at 9:00 AM Eastern"
+    },
+    {
+      "title": "Convergence Bible Institute",
+      "time": "Tuesdays at 7:00 PM Eastern"
+    },
+    {
+      "title": "The J.A.M.M. (Jesus and Me Ministry)",
+      "time": "Fridays at 7:00 PM Eastern"
+    },
+    {
+      "title": "Women of Prophetic Destiny Fellowship",
+      "time": "Every 2nd Friday at 7:00 PM Eastern"
+    },
+    {
+      "title": "Women of Prophetic Destiny Fellowship",
+      "time": "Every 2nd Saturday at 7:00 PM Eastern"
+    },
+    {
+      "title": "Women of Prophetic Destiny Fellowship",
+      "time": "Every 2nd Sunday at 4:00 PM Eastern"
+    }
+  ],
+  "lastUpdated": "2026-11-16T01:08:12.112667+00:00"
 }
