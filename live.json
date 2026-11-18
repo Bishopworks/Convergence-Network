@@ -7,7 +7,7 @@
   "supportWebsite": "https://ctkrm.org",
   "isLive": true,
   "title": "Live Broadcast" ,
-  "streamUrl":https://customer-b8n9l18nwoqtrmf7.cloudflarestream.com/f7ef76ddcb745942c61a9cab3d2c5c32/manifest/video.m3u8
+  "streamUrl":"https://customer-b8n9l18nwoqtrmf7.cloudflarestream.com/f7ef76ddcb745942c61a9cab3d2c5c32/manifest/video.m3u8",
   
   "schedule": [
     {
